@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  learn-tensorflow:
+    image: learn-tensorflow
+    container_name: learn-tensorflow
+    build:
+      context: ./docker/tensorflow
+      dockerfile: Dockerfile
+    expose:
+      - 8888 # Jupyter notebook listen port.
+    env_file: ./docker/tensorflow/.env
+    networks:
+      - learn-tensorflow-network
+    volumes:
+      - type: bind
+        source: ./notebooks
+        target: /tf/notebooks
+        volume:
+          nocopy: true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+networks:
+  learn-tensorflow-network:
+    name: learn-tensorflow-network
+    driver: bridge

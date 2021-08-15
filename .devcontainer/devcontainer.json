@@ -1,0 +1,16 @@
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+        "./docker-compose.extend.yml"
+    ],
+    "service": "learn-tensorflow",
+    "workspaceFolder": "/workspace",
+    "settings": {},
+    "extensions": [
+        "shardulm94.trailing-spaces"
+    ],
+    "forwardPorts": [
+        8888 // Jupyter notebook listen port.
+    ]
+}
