@@ -8,7 +8,9 @@
     "workspaceFolder": "/workspace",
     "settings": {},
     "extensions": [
-        "shardulm94.trailing-spaces"
+        "shardulm94.trailing-spaces",
+        "ms-python.python",
+        "ms-toolsai.jupyter"
     ],
     "forwardPorts": [
         8888 // Jupyter notebook listen port.
