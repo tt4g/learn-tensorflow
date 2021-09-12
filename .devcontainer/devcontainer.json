@@ -10,7 +10,8 @@
     "extensions": [
         "shardulm94.trailing-spaces",
         "ms-python.python",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring"
     ],
     "forwardPorts": [
         8888 // Jupyter notebook listen port.
