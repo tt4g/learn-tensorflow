@@ -5,4 +5,4 @@ RUN python -m pip install --upgrade pip \
     tensorflow-hub==0.12.0 tensorflow-datasets==4.4.0 \
     seaborn==0.11.2 \
     # Install pyyaml and h5py for saving model.
-    pyyaml==6.0 h5py==3.5.0
+    pyyaml==6.0 h5py==3.6.0
