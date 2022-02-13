@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.7.0-jupyter
+FROM tensorflow/tensorflow:2.8.0-jupyter
 
 RUN python -m pip install --upgrade pip \
     && python -m pip install scikit-learn==1.0.2 \
