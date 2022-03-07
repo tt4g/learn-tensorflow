@@ -15,4 +15,5 @@ RUN python -m pip install --upgrade pip \
     # Debung Jupiter notebook on Visual Studio Code.
     ipykernel==6.9.0 \
     # For `tensorflow.keras.utils.plot_model`
-    pydot==1.4.2
+    pydot==1.4.2 \
+    pytest==7.0.1
