@@ -16,4 +16,6 @@ RUN python -m pip install --upgrade pip \
     ipykernel==6.9.0 \
     # For `tensorflow.keras.utils.plot_model`
     pydot==1.4.2 \
+    # For Decision Forests.
+    tensorflow_decision_forests==0.2.4 wurlitzer==3.0.2 \
     pytest==7.0.1
