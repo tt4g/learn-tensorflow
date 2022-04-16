@@ -1,6 +1,6 @@
 import numpy as np
 
-from .variance import variance
+from learn_tensorflow.reinvent.variance import variance
 
 
 def test_variance():

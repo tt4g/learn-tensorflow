@@ -1,6 +1,6 @@
 import numpy as np
 
-from .mean import mean
+from learn_tensorflow.reinvent.mean import mean
 
 
 def test_mean():

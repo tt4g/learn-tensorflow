@@ -1,6 +1,6 @@
 import numpy as np
 
-from .standard_deviation import standard_deviation
+from learn_tensorflow.reinvent.standard_deviation import standard_deviation
 
 
 def test_standard_deviation():

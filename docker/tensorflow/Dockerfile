@@ -18,4 +18,4 @@ RUN python -m pip install --upgrade pip \
     pydot==1.4.2 \
     # For Decision Forests.
     tensorflow_decision_forests==0.2.4 wurlitzer==3.0.2 \
-    pytest==7.0.1
+    pytest==7.1.1

@@ -1,6 +1,6 @@
 import numpy as np
 
-from .deviation import deviation
+from learn_tensorflow.reinvent.deviation import deviation
 
 
 def test_deviation():
