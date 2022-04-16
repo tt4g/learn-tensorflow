@@ -18,25 +18,3 @@ $ docker-compose learn-tensorflow /bin/bash
 ```
 
 Also use Visual Studio Remote Container environment defined by `.devcontainer/devcontainer.json`.
-
-### Use Virtual environment
-
-`venv`
-
-```bash
-$ python -m venv .venv
-```
-
-`virtualenv`
-
-```bash
-$ virtualenv .venv
-```
-
-#### Install dependencies.
-
-```bash
-$ ./.venv/Scripts/activate
-$ python -m pip install --upgrade pip
-$ python -m pip install -r requirements.txt
-```
